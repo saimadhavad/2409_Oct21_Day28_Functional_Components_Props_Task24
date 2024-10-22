@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+.App {
+  text-align: center;
+  background-color: cadetblue;
+  margin: 10px;
+  
+}
+.withoutFunComponents,.withFunComponents {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.heading {
+  background-color: #295e6a;
+  color: #dfeff0;
+  text-align: center;
+  font-size: 3rem;
+  border: 10px solid #dfeff0;
+  border-radius: 50px;
+  box-shadow: 20px 20px 50px gray ;
+  text-shadow: 10px 10px 10px black;
+  font-family: "Londrina Sketch", sans-serif;
+  
+}
+
+  h1.fontChange{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    color: white;
+  }
+.withOutFunctionComponents, .withFunctionComponents {
+  border: 2px solid;
+  font-size: 1rem;
+}
+.imgIndiaAB {
+  width: 350px;
+  height: 200px;
+  object-fit: fill;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+}
+.imgIPL {
+  width: 300px;
+
+}
+.playerDiv {
+  width: 350px;
+  background-color: grey;
+  border: 2px solid gold;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: cadetblue;
+  color: white;
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
